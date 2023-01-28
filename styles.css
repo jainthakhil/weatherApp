@@ -1,0 +1,106 @@
+
+    body {
+    text-align: center;
+    background-color: #FAF7F0;
+    background-image: url("lugu_lake.webp");
+    /* background-image: url("https://cdn.dribbble.com/users/1403962/screenshots/6371490/lugu_lake.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: "Palatino", "Book Antiqua", serif;
+}
+
+
+
+#weatherContainer {
+    background-color: rgba(8, 8, 8, 0.5);
+    box-shadow: 1px 1px 5px black;
+    padding: 35px; 
+    width: 50%;
+    margin:auto;
+    margin-top:50px;
+    border: solid 2px white;
+    border-radius: 100px 100px;
+    /* position: absolute; */
+    visibility: hidden;
+    
+}
+#windSpeed,#humidity{
+  text-align: center;
+}
+
+#weatherContainer h1 {
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#searchContainer {
+    width:33%;
+    margin: auto;
+}
+#searchContainer input {
+    width: 100%;
+    height: 50px;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    border: solid black 2px;
+    border-radius: 75px 75px;
+
+}
+#searchContainer button {
+    background-color:#282A3A;
+    color: white;
+    width:50%;
+    border: solid 2px white;
+    border-radius: 75px 75px ;
+    
+    
+}
+.searchControl {
+    box-shadow: 2px 2px 5px #282A3A;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+#searchBtn:hover{
+    font-weight: bold;
+
+}
+
+#weatherMain {
+    display: block;
+    margin-bottom: 20px;
+}
+#weatherMain div {
+    display: inline-block;
+}
+#weatherDescriptionHeader {
+    font-size: 28px;
+    vertical-align: 50%;
+}
+#temperature {
+    font-size: 38px;
+    vertical-align: 25%;
+}
+.bottom-details {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+hr {
+    border-top: dotted 5px ;
+    border-bottom: none;
+    width: 20%;
+    margin-bottom: 20px;
+}
+.cloud{
+    width: 100%;
+}
+.cloud-img{
+    margin-right: 50%;
+}
